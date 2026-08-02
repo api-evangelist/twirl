@@ -1,0 +1,21 @@
+# Twirl
+
+> Twirl (twirldata.com) is a data platform / orchestrator that lets teams build data products faster by combining BigQuery, dbt, Python, and Google Cloud services (GCS, Dataflow) in a single git-backed project. Backed by Creandum. As of July 2026 the company's website (twirldata.com) and documentation site (docs.twirldata.com) return 404 and no public API surface is available; the only remaining public artifacts are the GitHub examples repository and a placeholder PyPI package.
+
+## Company
+
+- [Website (404 as of 2026-07-21)](https://twirldata.com/)
+- [GitHub organization](https://github.com/twirldata)
+- [Twirl examples repository](https://github.com/twirldata/twirl-examples): real-world Twirl projects — ML on BigQuery, dbt + Prophet forecasting, PDF/embeddings processing with Dataflow
+
+## Packages
+
+- [twirldata on PyPI](https://pypi.org/project/twirldata/): "Client SDK for the Twirl data platform" — v0.0.0 name reservation only
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/twirl/refs/heads/main/apis.yml)
+
+## Notes
+
+- No OpenAPI, AsyncAPI, MCP server, CLI, llms.txt, or .well-known documents were found (all probed 2026-07-21; docs and website hosts return 404, api/app/status subdomains do not resolve).

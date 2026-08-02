@@ -1,7 +1,25 @@
 aid: twirl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twirl.png
 name: Twirl
-description: 'Twirl is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Twirl is a data platform and orchestrator that lets teams build data products
+  faster by combining BigQuery, dbt, Python, and Google Cloud services (GCS,
+  Dataflow) in a single git-backed project. Backed by Creandum. As of July 2026
+  the twirldata.com website and docs.twirldata.com both return 404 (GitHub
+  Pages) and no public API surface is available; the remaining public artifacts
+  are the twirldata GitHub org (twirl-examples) and a placeholder PyPI package
+  (twirldata 0.0.0, "Client SDK for the Twirl data platform").
 url: https://raw.githubusercontent.com/api-evangelist/twirl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- Data
+- Data Platform
+- Data Pipelines
+- Orchestration
+- Dbt
+- BigQuery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/twirl-domain-security.yml
 - type: Website
   url: https://twirldata.com/
+- type: GitHubOrganization
+  url: https://github.com/twirldata
+- type: Packages
+  url: packages/twirl-packages.yml
+- type: LLMsTxt
+  url: llms/twirl-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

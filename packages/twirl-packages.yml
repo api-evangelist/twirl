@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/twirldata/json
+notes: >-
+  The only first-party package found is a PyPI name reservation: twirldata
+  0.0.0, summary "Client SDK for the Twirl data platform", description
+  "Coming soon...", author email hello@twirldata.com. No usable SDK was ever
+  published (no npm scope, no twirl-cli). Registries probed: npm, PyPI.
+  The GitHub org (github.com/twirldata) publishes only twirl-examples, a
+  repository of example Twirl projects (BigQuery, dbt, Python, GCS, actions),
+  not a client library.
+packages:
+  - language: python
+    registry: pypi
+    name: twirldata
+    url: https://pypi.org/project/twirldata/
+    install: pip install twirldata
+    official: true
+    version: 0.0.0
+    status: placeholder
+    summary: Client SDK for the Twirl data platform (name reservation only, "Coming soon...")

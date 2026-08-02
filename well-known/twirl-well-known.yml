@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://twirldata.com (site is a GitHub Pages 404 as of probe date)
+host: https://twirldata.com
+notes: >-
+  twirldata.com and www.twirldata.com resolve to GitHub Pages (www CNAME
+  twirldata.github.io) and return 404 for every path probed. docs.twirldata.com
+  also returns 404. app/api/status subdomains do not resolve. No well-known
+  documents were found; absence recorded as valid probe data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
