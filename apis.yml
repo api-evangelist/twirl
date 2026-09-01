@@ -46,12 +46,12 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Data
 - Data Platform
 - Data Pipeline
 - Orchestration
-- Dbt
+- dbt
 - BigQuery
 tags_raw:
 - Company
